@@ -23,8 +23,11 @@ while True:
 # If the character is #, change to i
         elif encrypted_message[i] == "#":
             decrypted_message += "i"
-            
+
 # If the character is +, change to o
+        elif encrypted_message[i] == "+":
+            decrypted_message += "o"
+            
 # If the character is !, change to u
 # Print the decrypted message
 # Ask the user if he/she wants to decrypt again
