@@ -36,5 +36,14 @@ while True:
 
 # Print the decrypted message
     print("\033[93mThe decrypted message is:", decrypted_message)
-    
+
 # Ask the user if he/she wants to decrypt again
+    while True:
+        answer = input("Do you want to try again? (Y/N): ")
+        if answer == "Y":
+            break
+        elif answer == "N":
+            print("Thank you for using Decrypt")
+            exit
+        else:
+            print("Invalid Answer")
