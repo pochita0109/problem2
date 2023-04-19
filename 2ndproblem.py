@@ -2,7 +2,13 @@
 # Assignment #2
 # Decryption
 
+print("DECRYPTION".center(45, "="))
+
 # Ask the user to enter the message to decrypt
+while True:
+    encrypted_message = input("\033[96mPlease enter the message you want to decrypt: ")
+    decrypted_message = ""
+    
 # Substitute the characters by replacing it to corresponding vowels
 # If the character is *, change to a
 # If the character is &, change to e
