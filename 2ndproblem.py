@@ -44,6 +44,6 @@ while True:
             break
         elif answer == "N":
             print("Thank you for using Decrypt")
-            exit
+            exit()
         else:
             print("Invalid Answer")
