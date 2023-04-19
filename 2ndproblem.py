@@ -19,8 +19,11 @@ while True:
 # If the character is &, change to e
         elif encrypted_message[i] == "&":
             decrypted_message += "e"
-            
+
 # If the character is #, change to i
+        elif encrypted_message[i] == "#":
+            decrypted_message += "i"
+            
 # If the character is +, change to o
 # If the character is !, change to u
 # Print the decrypted message
