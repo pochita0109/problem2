@@ -33,6 +33,8 @@ while True:
             decrypted_message += "u"
         else:
             decrypted_message += encrypted_message[i]
-            
+
 # Print the decrypted message
+    print("\033[93mThe decrypted message is:", decrypted_message)
+    
 # Ask the user if he/she wants to decrypt again
