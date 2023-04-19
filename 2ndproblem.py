@@ -8,12 +8,18 @@ print("DECRYPTION".center(45, "="))
 while True:
     encrypted_message = input("\033[96mPlease enter the message you want to decrypt: ")
     decrypted_message = ""
-
-# Substitute the characters by replacing it to corresponding vowels
+    
+#Substitute the characters by replacing it to corresponding vowels
     for i in range(len(encrypted_message)):
 
 # If the character is *, change to a
+        if encrypted_message[i] == "*":
+            decrypted_message += "a"
+
 # If the character is &, change to e
+        elif encrypted_message[i] == "&":
+            decrypted_message += "e"
+            
 # If the character is #, change to i
 # If the character is +, change to o
 # If the character is !, change to u
